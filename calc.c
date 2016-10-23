@@ -16,7 +16,7 @@ int main(){
     printf("%s", "Enter 2nd Number: ");
     scanf("%d", &y);
 
-    printf("%s", "+ - * / : ?");
+    printf("%s", "+ - * / : ");
     op = getchar();
     op = getchar();
 
