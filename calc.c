@@ -10,17 +10,17 @@ int main(){
     int y;
     char op;
 
-    printf("%s", "Enter num1: ");
+    printf("%s", "Enter 1st Number: ");
     scanf("%d", &x);
 
-    printf("%s", "Enter num2: ");
+    printf("%s", "Enter 2nd Number: ");
     scanf("%d", &y);
 
     printf("%s", "+ - * / : ");
     op = getchar();
     op = getchar();
 
-    printf("%s\n------\n", "OUTPUT");
+    printf("%s\n------\n", "RESULT");
     if (op == '+')
     {
         x + y;
